@@ -119,3 +119,4 @@ HISTSIZE=9999999
 SAVEHIST=9999999
 
 if [ -e /home/qing/.nix-profile/etc/profile.d/nix.sh ]; then . /home/qing/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+alias code="GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx SDL_IM_MODULE=fcitx code"

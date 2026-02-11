@@ -1,12 +1,10 @@
 [user]
+	name = 何庆 Ching He
+	sigingkey = A442A8BD5C05A571
 	email = heqing@rool.me
-	name = qing
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILsdEdNICFO5/J/OxxVd7mwc2POGom/ctq6Uxsb+jMiy
-[gpg]
-	format = ssh
-[gpg "ssh"]
-	program = /opt/1Password/op-ssh-sign
 [commit]
 	gpgsign = true
 [init]
-	defaultBranch = main
+        defaultBranch = main
+[includeIf "gitdir:~/repos/debian/"]
+        path = ~/.gitconfig-debian

@@ -1,10 +1,12 @@
 [user]
-	name = 何庆 Ching He
-	sigingkey = A442A8BD5C05A571
-	email = heqing@rool.me
+    name = 何庆 Ching He
+    email = heqing@rool.me
+    signingkey = A442A8BD5C05A571
 [commit]
-	gpgsign = true
+    gpgsign = true
 [init]
-        defaultBranch = main
+    defaultBranch = main
+[tag]
+    gpgsign = true
 [includeIf "gitdir:~/repos/debian/"]
-        path = ~/.gitconfig-debian
+    path = ~/.gitconfig-debian
